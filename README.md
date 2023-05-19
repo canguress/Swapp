@@ -1,8 +1,9 @@
 # Swapp
 A very useful application which provides to users swapp their own stuff each other.
 
-# 19/05/2023 WelcomeScreen - RegisterScreen - LoginScreen Design
-# Login & Register Sessions by Firebase Realtime Database
+# 19/05/2023
+WelcomeScreen - RegisterScreen - LoginScreen Design completed
+Login & Register Sessions by completed Firebase Realtime Database
 # WelcomeScreen 
 
 <img src="https://gcdnb.pbrd.co/images/Ud3ok7dfHZVp.png?o=1" width="200" height="400">
