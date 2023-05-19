@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpActivity">
+    tools:context=".RegisterActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginTop="100dp"
         >
 
         <ImageView
@@ -20,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Please sign up"
+            android:text="Please Sign Up"
             android:gravity="center"
             android:textSize="17sp"
             android:textColor="@color/purple_200"
@@ -34,8 +36,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:hint="Username"
-            android:layout_margin="5dp"
-            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
             android:inputType="text"
             android:background="@drawable/input_design"
 
@@ -48,24 +50,24 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:hint="Phone Number"
-            android:layout_margin="5dp"
-            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
             android:inputType="number"
             android:background="@drawable/input_design"
 
             />
 
 
-            />
+        />
 
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
+            android:padding="10dp"
             android:gravity="center"
             android:hint="Password"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:inputType="textPassword"
             android:background="@drawable/input_design"
 
@@ -74,10 +76,10 @@
             android:id="@+id/etPasswordConfirmation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
+            android:padding="10dp"
             android:gravity="center"
             android:hint="Password Confirmation"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:inputType="textPassword"
             android:background="@drawable/input_design"
 

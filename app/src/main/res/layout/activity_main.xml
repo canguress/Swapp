@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
 
         android:padding="10dp"
-        android:text="Üye Ol"
+        android:text="Join"
         android:textColor="@color/purple_200"
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Keşfet"
+        android:text="Discover"
         android:textColor="@color/purple_200"
         android:textSize="35dp"
         android:textStyle="bold"
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="TAKASLA"
+        android:text="SWAPP"
         android:textColor="@color/purple_200"
         android:textSize="45dp"
         android:textStyle="bold" />
@@ -64,7 +64,7 @@
         android:padding="20dp"
         android:textAllCaps="false"
         android:textSize="18sp"
-        android:text="Oturum Aç"
+        android:text="Sign In"
         android:textColor="@color/white"
 
 
@@ -80,7 +80,7 @@
         android:padding="20dp"
         android:textAllCaps="false"
         android:textSize="18sp"
-        android:text="Aramıza Katıl"
+        android:text="Sign Up"
         android:textColor="@color/white"
 
         />
