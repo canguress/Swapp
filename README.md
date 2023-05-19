@@ -15,4 +15,4 @@ A very useful application which provides to users swapp their own stuff each oth
 
 # RegisterScreen
 
-![Screenshot3](https://github.com/canguress/Swapp/assets/75667677/2eec7caa-ed46-432f-a05a-e104ab10cad8)
+<img src="https://gcdnb.pbrd.co/images/Ud3ok7dfHZVp.png?o=1" width="300" height="600">
