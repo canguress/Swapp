@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
@@ -17,6 +18,7 @@
             android:layout_height="wrap_content"
 
             android:src="@drawable/logo2" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,26 +63,71 @@
             android:padding="5dp"
             android:textAllCaps="false"
             android:textSize="18sp"
-            android:text="Oturum Aç"
+            android:text="Sign In"
             android:textColor="@color/white"
 
 
             />
-      <com.google.android.material.checkbox.MaterialCheckBox
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:textColor="@color/purple_200"
-          android:text="Remember me?"
-          android:outlineSpotShadowColor="@color/purple_200"
-          android:outlineAmbientShadowColor="@color/purple_200"
-          app:useMaterialThemeColors="true"
-          android:shadowColor="@color/purple_200"
-          android:textColorHint="@color/purple_200"
-          android:textColorHighlight="@color/purple_200"
-          android:textColorLink="@color/purple_200"
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/purple_200"
+                android:text="Remember me?"
+                android:outlineSpotShadowColor="@color/purple_200"
+                android:outlineAmbientShadowColor="@color/purple_200"
+                app:useMaterialThemeColors="true"
+                android:shadowColor="@color/purple_200"
+                android:textColorHint="@color/purple_200"
+                android:textColorHighlight="@color/purple_200"
+                android:textColorLink="@color/purple_200"
 
 
-          />
+                />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:gravity="center"
+
+               >
+               <Button
+                   android:id="@+id/btnSignUp"
+                   android:layout_width="100dp"
+                   android:layout_height="75dp"
+                   android:background="@drawable/buttons"
+                   android:text="Sign Up"
+                   android:textAllCaps="false"
+                   android:gravity="center"
+                   android:padding="5dp"
+                   android:layout_margin="5dp"
+                   android:textSize="13sp"
+                   android:textStyle="bold"
+                   />
+               <Button
+                   android:id="@+id/btnForgotPass"
+                   android:layout_width="100dp"
+                   android:layout_height="75dp"
+                   android:textAllCaps="false"
+                   android:textStyle="bold"
+                   android:textAlignment="center"
+                   android:background="@drawable/buttons"
+                   android:text="Forgot password?"
+                   android:gravity="center"
+                   android:padding="5dp"
+                   android:layout_margin="5dp"
+                   android:textSize="13sp"
+
+                   />
+           </LinearLayout>
+        </LinearLayout>
+
 
     </LinearLayout>
 
