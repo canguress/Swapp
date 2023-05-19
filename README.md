@@ -10,7 +10,8 @@ A very useful application which provides to users swapp their own stuff each oth
 # LoginScreen 
 
 
-![Screenshot2](https://github.com/canguress/Swapp/assets/75667677/c1bb0076-f8f3-476c-8545-d380265c0678)
+<img src="https://gcdnb.pbrd.co/images/Ud3ok7dfHZVp.png?o=1" width="400" height="750">
+
 
 # RegisterScreen
 
