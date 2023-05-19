@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "763652645681",
+    "project_id": "swapp-4584d",
+    "storage_bucket": "swapp-4584d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763652645681:android:0077f6fcc634ef3c4f8610",
+        "android_client_info": {
+          "package_name": "com.ismailcangures.swapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763652645681-pljc7lq1galef8fffdj2un144p68gg5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLn5dG-PYUjLqwfBGhrKpeThVSHeqwHhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763652645681-pljc7lq1galef8fffdj2un144p68gg5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
