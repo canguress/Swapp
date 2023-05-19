@@ -5,7 +5,7 @@ A very useful application which provides to users swapp their own stuff each oth
 # WelcomeScreen 
 
 ![Screenshot1 | height = 500px width = 250px](https://github.com/canguress/Swapp/assets/75667677/22730826-df4f-4427-b265-276701f03d6b)
-
+ <img src="Screenshot1.png" width="256" height="455">
 # LoginScreen 
 
 
