@@ -3,8 +3,7 @@ A very useful application which provides to users swapp their own stuff each oth
 
 # 19/05/2023 WelcomeScreen - RegisterScreen - LoginScreen Designs & Register Sessions by Firebase Realtime Database
 # WelcomeScreen 
-
-![Screenshot1](https://github.com/canguress/Swapp/assets/75667677/22730826-df4f-4427-b265-276701f03d6b)
+https://pasteboard.co/Ud3ok7dfHZVp.png
 
 # LoginScreen 
 
