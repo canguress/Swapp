@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddProductActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add a product to start Swapp!"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:textSize="35sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/wish_shore"
+            android:textColor="@color/black"
+            />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:hint="Product Name"
+                android:maxWidth="100dp"
+                android:maxHeight="50dp"
+                android:background="@drawable/input_design"
+                />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please pick your products images from your gallery.
+             You can choose 5 images maximum. Make it interesting!"
+            android:adjustViewBounds="true"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="italic"
+            android:fontFamily="@font/wish_shore"
+            android:textColor="@color/black"
+            />
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center"
+         >
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/img_gallery"
+             android:adjustViewBounds="true"
+             android:maxWidth="70dp"
+             android:maxHeight="70dp"
+             android:layout_margin="5dp"
+
+
+             />
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/img_gallery"
+             android:adjustViewBounds="true"
+             android:maxWidth="70dp"
+             android:maxHeight="70dp"
+             android:layout_margin="5dp"
+
+
+             />
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/img_gallery"
+             android:adjustViewBounds="true"
+             android:maxWidth="70dp"
+             android:maxHeight="70dp"
+             android:layout_margin="5dp"
+
+
+             />
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/img_gallery"
+             android:adjustViewBounds="true"
+             android:maxWidth="70dp"
+             android:maxHeight="70dp"
+             android:layout_margin="5dp"
+
+
+             />
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/img_gallery"
+             android:adjustViewBounds="true"
+             android:maxWidth="70dp"
+             android:maxHeight="70dp"
+             android:layout_margin="5dp"
+
+
+             />
+     </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:layout_margin="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/input_design"
+            android:hint="Product Explanation"
+            android:inputType="textMultiLine"
+            android:maxWidth="100dp"
+            android:maxHeight="169dp"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are you looking for something spesific product to Swapp yours?"
+            android:adjustViewBounds="true"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="italic"
+            android:fontFamily="@font/wish_shore"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_margin="20dp"
+            android:hint="I am looking for..."
+            android:maxWidth="100dp"
+            android:maxHeight="50dp"
+            android:background="@drawable/input_design"
+            />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnAddProductSampleForSwapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:adjustViewBounds="true"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="30dp"
+
+
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_id_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:textAllCaps="false">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+</RelativeLayout>

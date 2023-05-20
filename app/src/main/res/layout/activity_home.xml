@@ -48,6 +48,7 @@
         android:backgroundTint="@color/white"
         android:src="@drawable/ic_add_item"
         app:layout_anchor="@id/bottomApBar"
+        android:id="@+id/btnOpenAddProduct"
         app:maxImageSize="40dp"
         android:tint="@color/purple_200"/>
 

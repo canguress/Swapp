@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         category.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                Intent i = new Intent(MainActivity.this, AddProductActivity.class);
                 startActivity(i);
                 finish();
             }
