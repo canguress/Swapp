@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="60dp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tint="#95829e"
+                    android:alpha="0.3"
+                    android:src="@drawable/bg_dish"
+
+                    
+                    />
+                <ImageView
+                    android:id="@+id/imgCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/bg_dish"
+                    />
+
+                
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgCategory2"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+
+
+                />
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bg_right"
+                    android:alpha="0.3"
+                    app:tint="#95829e"
+                    />
+                
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bg_right"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_right_arrow"
+                    android:padding="10dp"
+                    />
+
+
+            </RelativeLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="110dp"
+                
+                
+                
+                >
+                <TextView
+                    android:id="@+id/tvcategoryName"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:fontFamily="@font/wish_shore"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="15dp"
+
+                    android:text=""
+                    android:textAllCaps="false"
+                    android:gravity="bottom"
+
+                    />
+                <TextView
+                    android:id="@+id/tvnumberitems"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:paddingTop="6dp"
+                    android:textSize="16sp"
+                    android:text=""
+                    />
+
+                
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+</RelativeLayout>
