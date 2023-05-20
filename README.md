@@ -9,6 +9,14 @@ A very useful application which provides to users swapp their own stuff each oth
 
 </ul>
 
+# 20/05/2023
+
+<ul>
+  <li>Category Screen Design completed</li>
+ 
+
+</ul>
+
 # WelcomeScreen 
 
 <img src="https://gcdnb.pbrd.co/images/Ud3ok7dfHZVp.png?o=1" width="200" height="400">
@@ -21,5 +29,10 @@ A very useful application which provides to users swapp their own stuff each oth
 
 
 # RegisterScreen
+
+<img src="https://gcdnb.pbrd.co/images/B7WWwh8yKffs.png?o=1" width="200" height="400">
+
+
+# CategoryScreen
 
 <img src="https://gcdnb.pbrd.co/images/B7WWwh8yKffs.png?o=1" width="200" height="400">
