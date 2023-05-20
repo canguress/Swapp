@@ -34,4 +34,4 @@ A very useful application which provides to users swapp their own stuff each oth
 
 
 # CategoryScreen
-<img src="https://giphy.com/embed/MfE9QzSY2wowAPyCS0" width="200" height="400">
+<img src="https://giphy.com/embed/MfE9QzSY2wowAPyCS0.gif" width="200" height="400">
