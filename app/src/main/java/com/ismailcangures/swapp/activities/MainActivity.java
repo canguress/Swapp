@@ -1,4 +1,4 @@
-package com.ismailcangures.swapp;
+package com.ismailcangures.swapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.ismailcangures.swapp.R;
 import com.ismailcangures.swapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

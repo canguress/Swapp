@@ -1,8 +1,10 @@
-package com.ismailcangures.swapp;
+package com.ismailcangures.swapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.ismailcangures.swapp.R;
 
 public class CategoryActivity extends AppCompatActivity {
 

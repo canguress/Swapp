@@ -1,4 +1,4 @@
-package com.ismailcangures.swapp;
+package com.ismailcangures.swapp.models;
 
 public class Category {
 

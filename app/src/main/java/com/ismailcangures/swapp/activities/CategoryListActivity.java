@@ -1,9 +1,13 @@
-package com.ismailcangures.swapp;
+package com.ismailcangures.swapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.ismailcangures.swapp.models.Category;
+import com.ismailcangures.swapp.adapters.CategoryAdapter;
+import com.ismailcangures.swapp.R;
 
 import java.util.ArrayList;
 

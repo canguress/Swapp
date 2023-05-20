@@ -1,4 +1,4 @@
-package com.ismailcangures.swapp;
+package com.ismailcangures.swapp.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +17,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.ismailcangures.swapp.R;
 import com.ismailcangures.swapp.models.UserModel;
 
 public class LoginActivity extends AppCompatActivity {

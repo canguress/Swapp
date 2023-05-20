@@ -1,4 +1,4 @@
-package com.ismailcangures.swapp;
+package com.ismailcangures.swapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
+import com.ismailcangures.swapp.R;
 import com.ismailcangures.swapp.databinding.ActivityHomeBinding;
 import com.ismailcangures.swapp.databinding.ActivityMainBinding;
 import com.ismailcangures.swapp.fragments.HomeFragment;
